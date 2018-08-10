@@ -13,6 +13,7 @@ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
 
 /**
+ * 初始化ImageLoader
  * @author wangyanqin
  * @date 2018/08/10
  */

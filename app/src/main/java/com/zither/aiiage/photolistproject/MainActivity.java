@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.AdapterView;
 
 /**
+ * 照片墙
  * @author wangyanqin
  * @date 2018/08/10
  */
@@ -22,7 +23,7 @@ public class MainActivity extends AbsListViewBaseActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                //startImagePagerActivity(i);
+                startImagePagerActivity(i);
             }
         });
     }

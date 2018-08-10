@@ -2,21 +2,21 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="120dip"
-    android:gravity="center"
-   >
-<com.zither.aiiage.photolistproject.SquareImageView
-    android:id="@+id/item_squareImageView"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:scaleType="center"
-    android:src="@drawable/image"
-    />
-<ProgressBar
-    android:id="@+id/progress"
-    android:layout_width="match_parent"
-    android:layout_height="10dp"
-    android:indeterminate="false"
-    android:max="100"
-    android:layout_gravity="bottom"
-    style="@style/ProgressBarStyle"/>
+    android:gravity="center">
+
+    <com.zither.aiiage.photolistproject.SquareImageView
+        android:id="@+id/item_squareImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/image" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@style/ProgressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_gravity="bottom"
+        android:indeterminate="false"
+        android:max="100" />
 </FrameLayout>

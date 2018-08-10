@@ -5,4 +5,7 @@
     <string name="menu_item_clear_disc_cache">清除磁盘缓存</string>
     <string name="menu_item_pause_on_scroll">滚动时暂停加载</string>
     <string name="menu_item_pause_on_fling">快速滑动时暂停加载</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

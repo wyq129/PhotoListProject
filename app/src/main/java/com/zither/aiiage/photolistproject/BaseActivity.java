@@ -3,7 +3,6 @@ package com.zither.aiiage.photolistproject;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
@@ -12,9 +11,10 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import org.jetbrains.annotations.Nullable;
 
 /**
+ * 清除缓存
  * @author wangyanqin
  */
-public abstract class BaseActivity extends Activity{
+public abstract class BaseActivity extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +28,7 @@ public abstract class BaseActivity extends Activity{
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.item_clear_memory_cache:
                 ImageLoader.getInstance().clearMemoryCache();
                 Toast.makeText(this, "清除内存缓存成功！", Toast.LENGTH_SHORT).show();
